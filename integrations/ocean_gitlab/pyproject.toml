@@ -3,6 +3,7 @@ name = "ocean_gitlab"
 version = "0.1.0-beta"
 description = "GitLab integration for Port using Ocean Framework"
 authors = ["Eri A. <eridotdev@gmail.com>"]
+packages = [{include = "ocean_gitlab"}]
 
 [tool.poetry.dependencies]
 python = "^3.12"
