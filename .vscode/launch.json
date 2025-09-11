@@ -248,6 +248,17 @@
       "python": "${workspaceFolder}/integrations/aikido/.venv/bin/python",
       "request": "launch",
       "type": "debugpy"
+    },
+    {
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}/integrations/ocean_gitlab",
+      "envFile": "${workspaceFolder}/integrations/ocean_gitlab/.env",
+      "justMyCode": true,
+      "name": "Run ocean_gitlab integration",
+      "program": "${workspaceFolder}/integrations/ocean_gitlab/debug.py",
+      "python": "${workspaceFolder}/integrations/ocean_gitlab/.venv/bin/python",
+      "request": "launch",
+      "type": "debugpy"
     }
   ]
 }

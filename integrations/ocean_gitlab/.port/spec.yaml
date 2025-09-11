@@ -1,0 +1,15 @@
+description: port-ocean-gitlab integration for Port Ocean
+icon: Cookiecutter  # Should be one of the available icons in Port
+features:
+  - type: exporter
+    section: Under Development  # Should be one of the available sections in Port
+    resources:
+      - kind: ocean_gitlab-example-kind
+      # - kind: <ResourceName2>
+configurations:
+  - name: myocean_gitlabToken
+    # required: true
+    type: string
+    sensitive: true
+  - name: someApplicationUrl
+    type: url
